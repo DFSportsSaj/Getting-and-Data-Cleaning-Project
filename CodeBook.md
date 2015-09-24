@@ -1,7 +1,7 @@
 #Code Book for Course Project
 
 
-##Below are the columns in the tidy data set that was submitted as a txt file for the course project!
+##Below are the columns in the tidy data set that was submitted as a txt file for the course project! There are 68 in total.
 
 1. **subjectID**
     * contains a numerical value ranging from 1 to 30 to identify which of the 30 particpants the data pertains too
@@ -16,8 +16,8 @@
 
 *Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals).*
 
-*These signals were used to estimate variables of the feature vector for each pattern:  
-'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.*
+*These signals were used to estimate variables of the feature vector for each pattern:*  
+*'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.*
 
 *"_mean" and "_std" denote the mean and standard deviation respectively. The raw data contained other measures, but for the sake of this project we were asked to extract variables pertaining to mean's and standard dev's only.* 
 
