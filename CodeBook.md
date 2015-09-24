@@ -7,22 +7,23 @@
     * contains a numerical value ranging from 1 to 30 to identify which of the 30 particpants the data pertains too
 2. **Activity**
     * contains a factor value defining which activity the data pertains to [Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, Laying]
-
-**NOTE: In order for the user to derive the meaning of each variable, I will provide some further insight into the column names**
-
-*The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz.* 
-
-*Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag).*
-
-*Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals).*
-
-*These signals were used to estimate variables of the feature vector for each pattern:*  
-*'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.*
-
-*"_mean" and "_std" denote the mean and standard deviation respectively. The raw data contained other measures, but for the sake of this project we were asked to extract variables pertaining to mean's and standard dev's only.* 
-
-*Since we were asked to average all the columns based on subjectID and Activity, all the variables are denoted with "_avg"*
-
+   
+   '''
+   **NOTE: In order for the user to derive the meaning of each variable, I will provide some further insight into the column names**
+   
+   *The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz.* 
+   
+   *Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag).*
+   
+   *Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals).*
+   
+   *These signals were used to estimate variables of the feature vector for each pattern:*  
+   *'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.*
+   
+   *"_mean" and "_std" denote the mean and standard deviation respectively. The raw data contained other measures, but for the sake of this project we were asked to extract variables pertaining to mean's and standard dev's only.* 
+   
+   *Since we were asked to average all the columns based on subjectID and Activity, all the variables are denoted with "_avg"*
+   '''
 3. **tBodyAcc_mean_X_avg**
 4. **tBodyAcc_mean_Y_avg**
 5. **tBodyAcc_mean_Z_avg**
