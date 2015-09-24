@@ -19,3 +19,5 @@ Script:
 * 11. Combine test and train data sets into master data set
 * 12. Use aggregate() to calculate column means by subject ID and Activity and store in meanData dataframe
 * 13. Output meanData data frame.
+
+###There is a Code Book provided for the tidy data set created by this script. It can be found in CodeBook.md
