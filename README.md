@@ -6,6 +6,7 @@
 The script imports data from the various text files in the "UCI HAR Dataset" folder that should be located in your working directory.
 
 Script:
+**
 *2. Import test and train Activity ID's (numeric values) from y_test.txt and y_train.txt respectively
 *3. Import test and train Subject ID's (numerica values) from subject_test.txt and subject_train.txt respectivley
 *4. Combine subject and Activity ID's into one data frame
